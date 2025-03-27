@@ -2,12 +2,12 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://munozetmunoz.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://munozetmunoz.org/ebooks/carlos-sepulveda-leyton/hijuna</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
-		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
-		<dc:publisher id="publisher">MuñozEtMuñoz</dc:publisher>
-		<meta property="file-as" refines="#publisher">MuñozEtMuñoz</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://munozetmunoz.org</meta>
+		<dc:date>2025-03-25T21:50:06Z</dc:date>
+		<meta property="dcterms:modified">2025-03-25T21:50:06Z</meta>
+		<dc:rights>DERECHOS</dc:rights>
+		<dc:publisher id="publisher">Editorial Trile</dc:publisher>
+		<meta property="file-as" refines="#publisher">Editorial Trile</meta>
+		<meta property="se:url.homepage" refines="#publisher">https://editorialtrile.com</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
@@ -16,7 +16,7 @@
 		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com</meta>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<link href="http://www.idpf.org/epub/a11y/accessibility-20170105.html#wcag-aa" rel="dcterms:conformsTo"/>
-		<meta property="a11y:certifiedBy">MuñozEtMuñoz</meta>
+		<meta property="a11y:certifiedBy">Editorial Trile</meta>
 		<meta property="schema:accessMode">textual</meta>
 		<meta property="schema:accessModeSufficient">textual</meta>
 		<meta property="schema:accessibilityFeature">readingOrder</meta>
@@ -27,37 +27,27 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Hijuna...</dc:title>
-		<meta property="file-as" refines="#title">Hijuna...</meta>
-		<dc:subject id="subject-1">SUBJECT_1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT_2</dc:subject>
-		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">LCSH_ID_1</meta>
-		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">LCSH_ID_2</meta>
-		<meta property="se:subject">TAG</meta>
+		<meta property="file-as" refines="#title">Hijuna</meta>
+		<dc:subject id="subject-1">Novelas chilenas</dc:subject>
 		<dc:description id="description">La infancia de un niño del barrio Matadero, en el arrabal santiaguino, esboza un vivo retrato de la vida popular del Santiago de comienzos del siglo XX.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;Hijuna nos relata con la frescura del trazo a mano alzada la infancia de Juan de Dios, habitante del barrio Matadero, un pelusa que callejea observando los avatares de la calle, correteando por conventillos rodeados de pequeñas fábricas y talleres; un arrabal habitado en su mayoría por matarifes diestros en el uso del cuchillo que siempre llevan consigo, listo para ser usado cuando el alcohol se les sube a la cabeza. Una novela que también nos permite esbozar un vivo retrato de la vida popular de Santiago en las primeras décadas del siglo XX.&lt;/p&gt;
 		</meta>
 		<dc:language>es</dc:language>
-		<dc:source>https://www.bibliotecanacionaldigital.gob.cl/visor/BND:7884</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">EBOOK_WIKI_URL</meta>
-		<meta property="se:url.vcs.github">https://github.com/munozetmunoz/carlos-sepulveda-leyton_hijuna</meta>
+		<dc:source>https://www.memoriachilena.gob.cl/602/w3-article-7884.html</dc:source>
+		<meta property="se:word-count">39503</meta>
+		<meta property="se:reading-ease.flesch">35.27</meta>
 		<dc:creator id="author">Carlos Sepúlveda Leyton</dc:creator>
 		<meta property="file-as" refines="#author">Sepulveda Leyton, Carlos</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n97038029</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="artist">Julio Fossa Calderón</dc:contributor>
+		<meta property="file-as" refines="#artist">Fossa Calderón, Julio</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://es.wikipedia.org/wiki/Julio_Fossa_Calder%C3%B3n</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">David Muñoz</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Muñoz, David</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
+		<meta property="role" refines="#transcriber-1" scheme="marc:relators">crr</meta>
 		<dc:contributor id="producer-1">Alejandro Muñoz</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Muñoz, Alejandro</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
