@@ -32,3 +32,13 @@
 .signboard p{
 	text-indent: 0;
 }
+
+.dinkus {
+	break-after: avoid;
+	break-inside: avoid;
+	font-variant: small-caps;
+	hyphens: none;
+	-epub-hyphens: none;
+	margin: 1em 0 -1em 0;
+	text-align: center;
+}
