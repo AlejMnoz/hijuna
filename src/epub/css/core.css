@@ -6,6 +6,7 @@ body{
 	hyphens: auto;
 	-epub-hyphens: auto;
 	text-wrap: pretty;
+	text-align: justify;
 }
 
 p{
