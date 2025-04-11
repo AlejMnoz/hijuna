@@ -1,7 +1,14 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+@font-face {
+	font-family: 'SortsMillGoudy';
+	src: url('../fonts/sorts-mill-goudy.ttf');
+	font-weight: normal;
+	font-style: normal;
+  }
 
 body{
+	font-family: 'SortsMillGoudy', serif;
 	font-variant-numeric: oldstyle-nums;
 	hyphens: auto;
 	-epub-hyphens: auto;
