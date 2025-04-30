@@ -6,8 +6,6 @@ abbr[epub|type~="se:era"]{
 	font-variant: all-small-caps;
 }
 
-section[epub|type~="titlepage"] h1,
-section[epub|type~="titlepage"] p,
 section[epub|type~="colophon"] h2,
 section[epub|type~="imprint"] h2{
 	font-size: 0; /* Required for Kobo not to add an extra page to the title */
@@ -15,10 +13,9 @@ section[epub|type~="imprint"] h2{
 	position: absolute; /* Required for Kindle */
 }
 
-section[epub|type~="titlepage"] img{
-	display: block;
-	margin: 3em auto auto auto;
-	width: 100%;
+section.epub-type-titlepage h1{
+	font-size: 2em;
+	margin: 5em auto -1em auto;
 }
 
 section[epub|type~="colophon"],
@@ -33,8 +30,9 @@ section[epub|type~="imprint"] header{
 }
 
 img[epub|type~="z3998:publisher-logo"]{
-	max-width: 25%;
-	width: 220px;
+	display: block;
+	max-width: 20%;
+	margin: 10em auto auto auto;
 }
 
 section[epub|type~="colophon"] p,
