@@ -18,14 +18,12 @@ section.epub-type-titlepage h1{
 }
 
 
-section[epub|type~="colophon"],
-section[epub|type~="imprint"]{
-	text-align: center;
+section[epub|type~="colophon"]{
+	text-align: left;
 }
 
 
-section[epub|type~="colophon"] header,
-section[epub|type~="imprint"] header{
+section[epub|type~="colophon"] header{
 	line-height: 0;
 	margin-top: 3em;
 }
@@ -37,21 +35,8 @@ img[epub|type~="z3998:publisher-logo"]{
 }
 
 section[epub|type~="colophon"] p{
-	margin: 1em auto 0 auto;
+	margin: 3em auto 0 auto;
 	text-indent: 0;
-}
-
-
-section[epub|type~="colophon"] p + p::before{
-	border-top: 1px solid;
-	content: "";
-	display: block;
-	margin: auto auto 1em auto;
-	width: 25%;
-}
-
-section[epub|type~="colophon"] a{
-	font-variant: small-caps;
 }
 
 section[epub|type~="colophon"] a{
