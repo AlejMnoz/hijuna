@@ -6,8 +6,7 @@ abbr[epub|type~="se:era"]{
 	font-variant: all-small-caps;
 }
 
-section[epub|type~="colophon"] h2,
-section[epub|type~="imprint"] h2{
+section[epub|type~="colophon"] h2{
 	font-size: 0; /* Required for Kobo not to add an extra page to the title */
 	left: -999em;
 	position: absolute; /* Required for Kindle */
@@ -18,10 +17,12 @@ section.epub-type-titlepage h1{
 	margin: 5em auto -1em auto;
 }
 
+
 section[epub|type~="colophon"],
 section[epub|type~="imprint"]{
 	text-align: center;
 }
+
 
 section[epub|type~="colophon"] header,
 section[epub|type~="imprint"] header{
@@ -29,23 +30,17 @@ section[epub|type~="imprint"] header{
 	margin-top: 3em;
 }
 
+
 img[epub|type~="z3998:publisher-logo"]{
 	display: block;
-	max-width: 20%;
-	margin: 10em auto auto auto;
+	margin: auto;
 }
 
-section[epub|type~="colophon"] p,
-section[epub|type~="imprint"] p{
+section[epub|type~="colophon"] p{
 	margin: 1em auto 0 auto;
 	text-indent: 0;
 }
 
-section[epub|type~="imprint"] p{
-	font-size: .75em;
-	text-align: justify;
-	width: 75%;
-}
 
 section[epub|type~="colophon"] p + p::before{
 	border-top: 1px solid;
@@ -59,7 +54,6 @@ section[epub|type~="colophon"] a{
 	font-variant: small-caps;
 }
 
-section[epub|type~="imprint"] a,
 section[epub|type~="colophon"] a{
 	hyphens: none;
 	-epub-hyphens: none;
